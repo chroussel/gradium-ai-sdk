@@ -1,5 +1,16 @@
 # ai
 
+## 7.0.128
+
+### Patch Changes
+
+- 0fe8c67: fix: preserve tool approval state when resuming streams
+- 0ca1ab9: Add durable non-streaming `WorkflowAgent.generate()` with a shared tool loop, a 20-step default, typed output, and core generation result semantics. Reuse core result and content construction through internal exports while preserving existing Workflow streaming behavior. Transport-independent approval creation remains separate follow-up work.
+- d6b42fd: feat(ai): support custom reasoning delimiters in extractReasoningMiddleware
+- 2136151: Throw `InvalidResponseDataError` instead of a generic `Error` when a generated audio file's format cannot be determined from its media type, so callers can identify the failure with `AISDKError.isInstance`.
+- Updated dependencies [131532b]
+  - @ai-sdk/gateway@4.0.104
+
 ## 7.0.127
 
 ### Patch Changes

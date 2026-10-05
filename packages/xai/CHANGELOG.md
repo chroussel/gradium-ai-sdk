@@ -1,5 +1,14 @@
 # @ai-sdk/xai
 
+## 5.0.15
+
+### Patch Changes
+
+- 30f32bd: feat(xai): add grok-imagine-image-2.0 image model id
+- 0a84440: feat(xai): add `auto` image quality option
+- 08d7f0a: feat(xai): add `1.5k` image resolution provider option
+- 7c41e41: feat(xai): support transcription model ids, `vadThreshold`, and `opus` audio format
+
 ## 5.0.14
 
 ### Patch Changes

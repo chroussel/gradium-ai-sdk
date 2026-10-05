@@ -1,5 +1,17 @@
 # @ai-sdk/workflow
 
+## 2.0.59
+
+### Patch Changes
+
+- 0ca1ab9: Add durable non-streaming `WorkflowAgent.generate()` with a shared tool loop, a 20-step default, typed output, and core generation result semantics. Reuse core result and content construction through internal exports while preserving existing Workflow streaming behavior. Transport-independent approval creation remains separate follow-up work.
+- 6accb1c: Refactor WorkflowAgent call preparation, model-call results, and execution finalization to prepare for non-streaming generation while preserving stream behavior.
+- Updated dependencies [0fe8c67]
+- Updated dependencies [0ca1ab9]
+- Updated dependencies [d6b42fd]
+- Updated dependencies [2136151]
+  - ai@7.0.128
+
 ## 2.0.58
 
 ### Patch Changes
